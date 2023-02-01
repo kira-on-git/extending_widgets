@@ -1,16 +1,15 @@
 # extending_widgets
 
-A new Flutter project.
+How to extend Stateless and Stateful Widgets
 
-## Getting Started
+https://medium.com/flutter-community/extending-statelesswidget-and-statefulwidget-in-flutter-830638a58a98
+## important
 
-This project is a starting point for a Flutter application.
+class ParentSFState<T extends ParentSF> extends State<T>
 
-A few resources to get you started if this is your first Flutter project:
+etc.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+see How it is in the widgets.dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+P.S.: allso the Random-Color-Generator is there
